@@ -3,7 +3,7 @@ import React from 'react'
 const ContactUs = () => {
   return (
    <div className="hero bg-base-200 min-h-screen">
-  <div className="hero-content flex-col lg:flex-row-reverse gap-30 lg:gap-60">
+  <div className="hero-content flex-col lg:flex-row-reverse gap-25 lg:gap-60">
   
     {/* Map Card */}
     <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
@@ -36,23 +36,23 @@ const ContactUs = () => {
     <div className="text-center lg:text-left justify-end max-w-xl">
 
       <p className="py-6 text-sm leading-relaxed">
-        <strong>Office 1:</strong> B-23, Sector 14<br />
-        Noida – 201301, U.P., India.<br /><br />
+        <strong>For any assistance, please contact us:</strong> <br />
+        <br />
 
-        <strong>Office 2:</strong> 13, M.C. Setalvad Lawyers Chamber<br />
-        Supreme Court of India<br />
-        New Delhi – 110001, India.<br /><br />
+        <strong>Vidit Jain & Co</strong> <br />
+       <br />
+        <br />
 
-        <strong>Office 3:</strong> B-56, Sector 14<br />
-        Noida – 201301, U.P., India.<br /><br />
+        <strong>Corp Office:</strong><br />
 
-        <strong>Office 4:</strong> “Kanchan”, Roshni Ghar Road<br />
-        Near Achleshwar Temple, Lashkar<br />
-        Gwalior – 474001, M.P., India.<br /><br />
+        <strong>Delhi:</strong> 4697/3 FF 21A Nepal Carrier Building, Ansari Road,<br/>
+         Daryaganj, New Delhi -110002,<br />
+         New Delhi, India.<br /><br />
 
-        <strong>Telefax:</strong> (+91) 120 410 5444<br />
-        <strong>Email:</strong> office@lahotiadvocates.com<br />
-        <strong>Website:</strong> www.lahotiadvocates.com
+        <strong>Office:</strong> (+91) 11 41617269<br />
+        <strong>Mobile:</strong> 9811490401, 9810672828<br />
+        <strong>Email:</strong>  info@vjco.co.in<br />
+        <strong>Website:</strong> www.vjco.co.in
       </p>
 
     </div>

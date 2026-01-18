@@ -1,4 +1,6 @@
 import React from 'react'
+import img from "../images/logo.png"
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
@@ -58,21 +60,35 @@ const NavBar = () => {
     hover:before:w-full text-xl">Contact us</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+   <img
+  src={img}
+  alt="Logo"
+  className="
+    h-8 sm:h-10 md:h-12 lg:h-14
+    w-auto
+    object-contain
+    brightness-110
+    contrast-110
+    transition-transform duration-300
+    hover:scale-105
+  "
+/>
+
+    {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a className="relative hover:text-orange-500 transition duration-300
+      <li><Link to="/aboutus" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">About us</a></li>
+    hover:before:w-full text-xl">About us</Link></li>
       <li>
         <details>
           <summary className="relative inline-block cursor-pointer hover:text-orange-500 transition duration-300
     before:content-[''] before:absolute before:left-0 before:-bottom-1
     before:h-[2px] before:w-0 before:bg-orange-500
     before:transition-all before:duration-300
-    hover:before:w-full text-xl">Services</summary>
+    hover:before:w-full text-xl"><Link to= "/services">Services</Link></summary>
           <ul className="p-2 bg-base-100 w-40 z-1">
             <li><a className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
@@ -97,18 +113,18 @@ const NavBar = () => {
           </ul>
         </details>
       </li>
-          <li><a className="relative hover:text-orange-500 transition duration-300
+          <li><Link to="/industries" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Industries</a></li>
-         <li><a className="relative hover:text-orange-500 transition duration-300
+    hover:before:w-full text-xl">Industries</Link></li>
+         <li><Link to="/careers" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Careers</a></li>
-          <li><a className="relative hover:text-orange-500 transition duration-300
+    hover:before:w-full text-xl">Careers</Link></li>
+          <li><Link to="/contactus" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Contact us</a></li>
+    hover:before:w-full text-xl">Contact us</Link></li>
     </ul>
   </div>
   <div className="navbar-end">
