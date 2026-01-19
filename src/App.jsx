@@ -9,13 +9,11 @@ import Error from "./components/Error"
 
 function App() {
 
-  return (
-    
+  return (    
     <BrowserRouter basename="/">
     <Routes>
       <Route path="/" element={<Body/>} errorElement={<Error/>}> 
         {/* <Route index element={<Home />} /> */}
-
         {/* <Route path="/login" element={<AboutUs/>}/> */}
         {/* <Route path="/" element={<Home/>}/> */}
         <Route path="/industries" element={<Industries/>}/>

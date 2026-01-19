@@ -56,7 +56,7 @@ const Careers = () => {
 
         <div className="btn bg-orange-500 hover:bg-orange-600 text-white border-none">
           <p>
-             For any other query, please write to us at career@lahotiadvocates.com
+             For any other query, please write to us at info@amaind.co.in
           </p>
         </div>
 
