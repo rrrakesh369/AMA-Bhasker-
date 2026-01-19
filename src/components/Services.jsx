@@ -29,13 +29,24 @@ const Services = () => {
       </p>
 
       {/* Image */}
-      <div className="flex justify-center lg:justify-end flex-1">
-        <img
-          src={servImg}
-          className="max-w-md lg:max-w-lg rounded-lg shadow-2xl"
-          alt="Business Discussion"
-        />
-      </div>
+     <div className="flex justify-center lg:justify-end flex-1 px-4 sm:px-0">
+  <img
+    src={servImg}
+    alt="Business Discussion"
+    className="
+      w-full
+      max-w-xs
+      sm:max-w-sm
+      md:max-w-md
+      lg:max-w-lg
+      xl:max-w-xl
+      rounded-2xl
+      shadow-2xl
+      object-cover
+    "
+  />
+</div>
+
     </div>
 
     {/* Second Section */}
