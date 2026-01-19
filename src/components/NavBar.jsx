@@ -14,15 +14,15 @@ const NavBar = () => {
       <ul
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a className="relative hover:text-orange-500 transition duration-300
+        <li><Link to="/aboutus" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">About us</a></li>
+    hover:before:w-full text-xl">About us</Link></li>
         <li>
           <a className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Services</a>
+    hover:before:w-full text-xl"><Link to= "/services">Services</Link></a>
           <ul className="p-2">
             <li><a className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
@@ -46,18 +46,18 @@ const NavBar = () => {
     hover:before:w-full text-xl">Submenu 5</a></li>
           </ul>
         </li>
-         <li><a className="relative hover:text-orange-500 transition duration-300
+         <li><Link to="/industries" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Industries</a></li>
-         <li><a className="relative hover:text-orange-500 transition duration-300
+    hover:before:w-full text-xl">Industries</Link></li>
+         <li><Link to="/careers"className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Careers</a></li>
-          <li><a className="relative hover:text-orange-500 transition duration-300
+    hover:before:w-full text-xl">Careers</Link></li>
+          <li><Link to="/contactus" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Contact us</a></li>
+    hover:before:w-full text-xl">Contact us</Link></li>
       </ul>
     </div>
    <img
@@ -90,26 +90,26 @@ const NavBar = () => {
     before:transition-all before:duration-300
     hover:before:w-full text-xl"><Link to= "/services">Services</Link></summary>
           <ul className="p-2 bg-base-100 w-40 z-1">
-            <li><a className="relative hover:text-orange-500 transition duration-300
+            <li><Link to="" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Submenu 1</a></li>
-            <li><a className="relative hover:text-orange-500 transition duration-300
+    hover:before:w-full text-xl">Submenu 1</Link></li>
+            <li><Link to="" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Submenu 2</a></li>
-            <li><a className="relative hover:text-orange-500 transition duration-300
+    hover:before:w-full text-xl">Submenu 2</Link></li>
+            <li><Link to="" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Submenu 3</a></li>
-            <li><a className="relative hover:text-orange-500 transition duration-300
+    hover:before:w-full text-xl">Submenu 3</Link></li>
+            <li><Link to="" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Submenu 4</a></li>
-            <li><a className="relative hover:text-orange-500 transition duration-300
+    hover:before:w-full text-xl">Submenu 4</Link></li>
+            <li><Link to="" className="relative hover:text-orange-500 transition duration-300
     before:absolute before:left-0 before:-bottom-1 before:h-[2px]
     before:w-0 before:bg-orange-500 before:transition-all before:duration-300
-    hover:before:w-full text-xl">Submenu 5</a></li>
+    hover:before:w-full text-xl">Submenu 5</Link></li>
           </ul>
         </details>
       </li>

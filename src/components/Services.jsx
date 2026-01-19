@@ -1,4 +1,5 @@
 import React from 'react'
+import servImg from '../images/serv.jpg'
 
 const Services = () => {
   return (
@@ -30,7 +31,7 @@ const Services = () => {
       {/* Image */}
       <div className="flex justify-center lg:justify-end flex-1">
         <img
-          src="https://images.unsplash.com/photo-1521791136064-7986c2920216"
+          src={servImg}
           className="max-w-md lg:max-w-lg rounded-lg shadow-2xl"
           alt="Business Discussion"
         />
